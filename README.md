@@ -1,3 +1,3 @@
 # dpcontent
-## blog
+## blog (hugo based blog server)
 ## personal projects
