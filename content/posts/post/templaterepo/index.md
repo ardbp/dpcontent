@@ -1,9 +1,9 @@
 ---
 title: "Template Repository"
-date: 2017-08-31T15:43:48+08:00
-lastmod: 2017-08-31T15:43:48+08:00
+date: 2022-09-05T15:43:48+08:00
+lastmod: 22022-09-05T15:43:48+08:00
 draft: false
-tags: ["preview", "English", "tag-2"]
+tags: ["template", "repository", "github"]
 categories: ["English"]
 author: "Daxesh Panchal"
 
@@ -17,34 +17,29 @@ Github template repository will allow to create new repository with the same dir
 
 This could be very useful for createing service-template and few other things.
 
-## **How to make an existing repository to Template repo.**
+## **How to convert an existing repository to Template repository.**
 
-* On GitHub.com, navigate to the main page of the repository.
-  
-* Under your repository name, click Settings. 
-  
-* Select template repository
+   1. Visit GitHub.com, navigate to the main page of your repository.
+   2. Under your repository name, click Settings. 
+   3. From the General section, Select template repository
 ![Screenshot1](images/templaterepo01.png)
 
-![Scenario 1: Across columns](images/templaterepo01.png)
-
-## **Creating repository from Template repository**
-
-* Open template repo from github, For example if template repo is github.com/ardbp/grpctemplate
-** Method 1. 
+## **How to Create repository from Template repository**
+**Option 1.**
+1. Open template repo from github, For example for template repository grpctemplate Open github.com/ardbp/grpctemplate
 ![Screenshot2](images/templaterepo04.png)
 
-* Create new repo from selecting New github repository interface  
+2. Create new repo from selecting New github repository interface  
 ![Screenshot2](images/templaterepo02.png)
 
-* Select template from repository template options
+3. Select template from repository template options
 
 ![Screenshot3](images/templaterepo03.png)
 
-* Optionally select include all branches if you would like to have all branches availeble in template repository.
+4. Optionally select include all branches if you would like to have all branches availeble in template repository.
   
-* Specify repository name and description 
+5. Specify repository name and description 
   
-* Select Public/Private option
+6. Select Public/Private option
   
-* Create repository
+7. Create repository
