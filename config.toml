@@ -23,14 +23,9 @@ icon = "github"
 url = "https://github.com/ardbp"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/athulcajay/"
-
-[[params.social]]
 name = "LinkedIn"
-icon = "LinkedIn"
-url = "https://gitlab.com/athul/"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/daxesh-panchal"
 
 # Main menu Items
 
