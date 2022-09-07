@@ -20,7 +20,7 @@ paginate=3 # articles per page
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/ardbp/dpcontent"
+url = "https://github.com/ardbp"
 
 [[params.social]]
 name = "Twitter"
@@ -44,7 +44,7 @@ name = "All posts"
 url = "/posts"
 weight = 2
 
-[[menu.main]]
+[[menu.main1]]
 name = "About"
 url = "/about"
 weight = 3
