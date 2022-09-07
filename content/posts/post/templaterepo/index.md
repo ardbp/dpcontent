@@ -26,20 +26,28 @@ This could be very useful for createing service-template and few other things.
 
 ## **How to Create repository from Template repository**
 **Option 1.**
-1. Open template repo from github, For example for template repository grpctemplate Open github.com/ardbp/grpctemplate
-![Screenshot2](images/templaterepo04.png)
+1. Open template repo from github, For example for template repository grpctemplate Open github.com/ardbp/grpctemplate and Select UseTemplate
+![Screenshot4](images/templaterepo04.png)
 
-2. Create new repo from selecting New github repository interface  
+2. Specify repository name and description 
+![Screenshot5](images/templaterepo05.png)  
+  
+3. Select Public/Private option
+  
+4. Create repository
+
+**Option 2.**
+1. Create new repo from selecting New github repository interface  
 ![Screenshot2](images/templaterepo02.png)
 
-3. Select template from repository template options
+2. Select template from repository template options
 
 ![Screenshot3](images/templaterepo03.png)
 
-4. Optionally select include all branches if you would like to have all branches availeble in template repository.
+3. Optionally select include all branches if you would like to have all branches availeble in template repository.
   
-5. Specify repository name and description 
+4. Specify repository name and description 
   
-6. Select Public/Private option
+5. Select Public/Private option
   
-7. Create repository
+6. Create repository
