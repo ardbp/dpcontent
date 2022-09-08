@@ -1,7 +1,7 @@
 baseURL = "https://ardbp.github.io/dpcontent/"
 languageCode = "en-us"
 title = "DPContent"
-theme="archie"
+# theme="archie"
 copyright = "© DPContent"
 # Code Highlight
 pygmentsstyle = "monokai"
