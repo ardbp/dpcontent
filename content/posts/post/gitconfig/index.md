@@ -13,41 +13,22 @@ autoCollapseToc: true
 ---
 
 # **Git config**
-Github template repository will allow to create new repository with the same directory structure and files as it is available in github template repository.
+Git config allows you to set various configuration options for git.
 
-This could be very useful for createing service-template and few other things.
+## **Setting global username and email.**
+      git config --global user.name ardbp
+      git config --global user.email panchaldaxesh@gmailc.om
 
-## **How to convert an existing repository to Template repository.**
+## **Add new remote url to git**
+      git remote add origin https://github.com/ardbp/grpctemplate.git
 
-   1. Visit GitHub.com, navigate to the main page of your repository.
-   2. Under your repository name, click Settings. 
-   3. From the General section, Select template repository
-![Screenshot1](images/templaterepo01.png)
+## **Updating remote url to git**
+      git remote set-url origin https://github.com/ardbp/grpctemplate.git 
 
-## **How to Create repository from Template repository**
-**Option 1.**
-1. Open template repo from github, For example for template repository grpctemplate Open github.com/ardbp/grpctemplate and Select UseTemplate
-![Screenshot4](images/templaterepo04.png)
+      or
 
-2. Specify repository name and description 
-![Screenshot5](images/templaterepo05.png)  
-  
-3. Select Public/Private option
-  
-4. Create repository
+      git remote set-url origin git@github.com:ardbp/grpctemplate.git 
 
-**Option 2.**
-1. Create new repo from selecting New github repository interface  
-![Screenshot2](images/templaterepo02.png)
+## **Display remote url**
+      git remote -v
 
-2. Select template from repository template options
-
-![Screenshot3](images/templaterepo03.png)
-
-3. Optionally select include all branches if you would like to have all branches availeble in template repository.
-  
-4. Specify repository name and description 
-  
-5. Select Public/Private option
-  
-6. Create repository
