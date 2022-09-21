@@ -4,7 +4,7 @@ date: 2022-09-05T15:43:48+08:00
 lastmod: 22022-09-05T15:43:48+08:00
 draft: false
 tags: ["template", "repository", "github"]
-categories: ["English"]
+categories: ["github"]
 author: "Daxesh Panchal"
 
 autoCollapseToc: true
