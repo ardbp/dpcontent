@@ -4,7 +4,7 @@ date: 2022-09-19T19:01:48+08:00
 lastmod: 2022-09-19T19:01:48+08:00
 draft: true
 tags: ["git", "config", "github"]
-categories: ["English"]
+categories: ["git"]
 author: "Daxesh Panchal"
 
 autoCollapseToc: true
@@ -12,7 +12,7 @@ autoCollapseToc: true
 
 ---
 
-# **Git config**
+# **Git configuration command**
 Git config allows you to set various configuration options for git.
 
 ## **Setting global username and email.**
@@ -32,3 +32,5 @@ Git config allows you to set various configuration options for git.
 ## **Display remote url**
       git remote -v
 
+## **Using ssh over https using git config**
+      git config --global url."git@github.com:".insteadOf "https://github.com/"
