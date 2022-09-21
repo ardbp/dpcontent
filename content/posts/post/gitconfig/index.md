@@ -32,3 +32,5 @@ Git config allows you to set various configuration options for git.
 ## **Display remote url**
       git remote -v
 
+## **Using ssh over https using git config**
+      git config --global url."git@github.com:".insteadOf "https://github.com/"
