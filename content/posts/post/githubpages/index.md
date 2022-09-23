@@ -19,7 +19,7 @@ autoCollapseToc: true
    * Next Select `Deploy from branch` option in source
    * Next select branch and directory where your API specs is available.
    * Optionally you can select Theme and Custom domain.
-   * When you will specify custom domain gh-pages will be deploy using custom domain instead of `wattpad.github.io/repo-name`
+   * When you will specify custom domain gh-pages will be deploy using custom domain instead of `ardbp.github.io/repo-name`
   ### Add entrypoint page to the gh-pages directory
   * Create index.html page in the same directory where you have openAPI specs file
   * Copy this content to index.html file
@@ -53,6 +53,6 @@ autoCollapseToc: true
 </html>
 ```
 * commit and merge changes to the branch which is used to deploy Gh-Pages
-* By default API specs should be available on `wattpad.github.io/repo-name` if you have not used custom domain
-* Ex: `https://wattpad.github.io/password-strenth`
-* For enabling live test you can specify correct server url in your API specs for Example for Password-strength service. `https://github.com/Wattpad/password-strength/blob/main/docs/openapi.yaml#L7`
+* By default API specs should be available on `ardbp.github.io/repo-name` if you have not used custom domain
+* Ex: `https://ardbp.github.io/grpctemplate`
+* For enabling live test you can specify correct server url in your API specs.
