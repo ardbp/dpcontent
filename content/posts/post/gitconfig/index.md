@@ -2,7 +2,7 @@
 title: "Git Config"
 date: 2022-09-19T19:01:48+08:00  
 lastmod: 2022-09-19T19:01:48+08:00
-draft: true
+draft: false
 tags: ["git", "config", "github"]
 categories: ["git"]
 author: "Daxesh Panchal"
