@@ -1,8 +1,8 @@
 baseURL = "https://ardbp.github.io/dpcontent/"
 languageCode = "en-us"
-title = "DPContent"
+title = "DPTechLab"
 # theme="archie"
-copyright = "© DPContent"
+copyright = "© DPTechLab"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -13,7 +13,7 @@ paginate=3 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
 	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-	subtitle = "DPContent for various technical topics"
+	subtitle = "" # todo add subtitle later
 
 # Social Tags
 
