@@ -57,3 +57,7 @@ message CustomerResponse{}
 
 So when end user will be using this service they will interect with either create or get RPC endpoint, Similarly we will be writing the test which will call both endpoints using generated gRPC client from above protobuf.
 
+Let's write integration test for create endpoint
+
+```
+
