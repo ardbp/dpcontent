@@ -61,3 +61,48 @@ Let's write integration test for create endpoint
 
 ```
 
+func TestCreateCustomerWithSuccessResponse(t *testing.T) {
+	_, err := (getClient()).CreateCustomer(context.Background(), &api.Customer{Id: 1, Name: "test"})
+	if err != nil {
+		t.Errorf("failed to create customer with error: %v", err)
+		t.Fail()
+	}
+}
+
+func TestCreateCustomerWithBadRequestResponse(t *testing.T) {
+	_, err := (getClient()).CreateCustomer(context.Background(), &api.Customer{})
+	if err == nil {
+		t.Errorf("failed to receive BadRequest response")
+		t.Fail()
+	}
+
+	st, ok := status.FromError(err)
+	if !ok {
+		t.Errorf("Invalid response code")
+		t.Fail()
+	}
+
+	if st.Code() != codes.InvalidArgument {
+		t.Errorf("Invalid response code")
+		t.Fail()
+	}
+}
+```
+This examples shows two different tests, where first test verify successful customer creation using correct data. 2nd test verify that customer create api return `InvalidArgument` response for invalid request data.
+
+In both tests it uses generated gRPC client from protobuf defination, it has been provided using `getClient()` method. Here is the code for getClient.
+
+```
+func getClient() api.CustomerServiceClient {
+	appURL := os.Getenv("APP_DSN")
+
+	// connect to the grpc server
+	conn, err := grpc.Dial(appURL, grpc.WithTransportCredentials(insecure.NewCredentials()))
+	if err != nil {
+		log.Print("did not connect:", err)
+		return nil
+	}
+
+	return api.NewCustomerServiceClient(conn)
+}
+```
