@@ -12,7 +12,7 @@ autoCollapseToc: true
 
 ---
 
-# **Integration Test**
+# **Integration Test part1**
 
 ## **What is Integration Test**
 
@@ -23,7 +23,7 @@ For example if we have microservice which is serving APIs for customer's crud an
    * Success test case which validate you can create/update/delete/get customer resource with valid test data
    * Failure test cases
      *  Bad Request for Invalid data for all API endpoints
-     *  Internal Server Error for the failure scenarios where service isn't reachable to postgres or any other scenarios where it cann't process the request.
+     *  Internal Server Error for the failure scenarios where service isn't reachable to postgres or any other scenarios where it can't process the request.
   
 
 ## **How to write integration test**
@@ -106,3 +106,4 @@ func getClient() api.CustomerServiceClient {
 	return api.NewCustomerServiceClient(conn)
 }
 ```
+In this article we have talk about how to write basic integration test, In next article I will walk you through how to run this tests in local environment and on ci/cd using github actions.
