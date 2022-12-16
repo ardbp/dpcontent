@@ -2,7 +2,7 @@
 title: "Integration Test"
 date: 2022-11-01 
 lastmod: 2022-11-14
-draft: true
+draft: false
 tags: ["test", "integration test", "golang"]
 categories: ["test"]
 author: "Daxesh Panchal"
